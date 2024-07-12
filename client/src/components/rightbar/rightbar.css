@@ -1,0 +1,121 @@
+.rightbar{
+    flex:3;
+    background-color: rgb(170, 239, 242);
+}
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin:     0px;
+    margin-left: 10px;
+}   
+
+.rightbarTitle {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.rightbarFollowin {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    justify-content: space-between;  
+}
+
+
+.rightbarTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+}
+
+.rightbarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.rightbarInfoKey {
+    font-weight: 600;
+    margin-right: 15px;
+    color: blue;
+    margin-left: 5px;
+}
+
+.rightbarInfoValue {
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+}
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    margin-left: 5px; 
+}
+
+.rightbarFollowButton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:focus {
+    outline: none;
+}
+.rightbarButtons {
+    display: flex;
+    gap: 10px;
+}
+.rightbarFollowingss {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightbarButtons {
+    display: flex;
+    gap: 10px;
+}
+.rightbarFollowing:focus {
+    outline: none;
+}

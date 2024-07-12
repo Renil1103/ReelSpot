@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color:#E1B0AC;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #f4007ea5;
+    cursor: pointer;
+  }
+  
+  .topbarCenter {
+    flex: 5;
+  }
+  
+  .searchbar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(58, 49, 49);
+  }
+  
+  
+  
+  .topbarIcons {
+    display: flex;
+    margin-left: 200px;
+  }
+  
+  .topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  
+  .topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+.Text1 {
+     
+    color: #ff0887;
+    cursor: pointer;
+    
+}
+
+.Text2 {
+    font-family: serif;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.LogoutButton {
+   
+    background-color: #ff0887;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.LogoutButton:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color:#b5817d;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.searchResultItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.searchResultItem:hover {
+  background-color: #f0f0f0;
+}
+
+.searchResultImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.friendsDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  background-color:#b5817d;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.friendItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.friendImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}

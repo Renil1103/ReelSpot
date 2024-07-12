@@ -1,0 +1,168 @@
+
+ .register{
+    width: 100%;
+    height: 100vh;
+    background-color: #DDD0C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.registerWrapper { 
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.registerLeft , .registerRight {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registerLogo {
+    font-size: 70px;
+    font-weight: 800;
+    color: #2C2E3A;
+    margin-bottom:-3px;
+    padding-bottom: 5px;
+}
+
+.registerDesc {
+    font-size: 24px;
+}
+
+.registerBox {
+    height: 400px;
+    padding: 20px;
+    background-color:#E1B0AC;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.registerInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #323232;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background-color:#9b00f4;
+    font-size: 20px;
+    color : white;
+    font-weight: 900;
+    cursor:pointer;
+}
+
+
+.registerLoginButton {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background-color:#9b00f4;
+    font-size: 20px;
+    color : white;
+    font-weight: 900;
+    cursor:pointer;
+}
+
+.Img {
+    width: 60px  ;  
+}
+
+.line {
+   height: 5px;
+   width: 340px;
+   background-color: #2C2E3A;
+}
+
+.Text1 {
+    font-family: cursive;
+    padding-bottom: 50px;
+}
+
+.Text2 {
+    font-family: serif;
+    background-color: #f4007ea5;
+    border-radius: 25px;
+}
+
+.Hey {
+    background-color: #2C2E3A;
+}
+
+.bottomRightCorner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+  
+  .cornerText {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 5px;
+        
+    padding-right: 550px;
+  }
+  
+  .line1 {
+    height: 10px;
+    width: 5000px;
+    background-color:#f4007ea5;
+    padding-bottom: 50px;
+  }
+
+.footer {
+   background-color:#f4007ea5 ;
+   height: 80px;
+   width: 1600px; 
+   text-align: center;
+   font-family: serif;
+   text-decoration: dotted;
+   font-size:20px;
+}
+
+.Modalcss {
+    background-color: #4c67ff;
+    margin-left:550px;
+    width: 400px;
+    height: 400px;
+    margin-top: 250px;
+
+}
+
+.DialogBox {
+    background-color: white;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.dialogTitle {
+    background-color:#f4007ea5;
+    height: 30px;
+    text-align: center;
+
+}
+
+.DialogContentText {
+    text-align: center;
+    font-style: italic;
+}
